@@ -59,13 +59,13 @@
                         <a class="page-scroll" href="#lecturas">Lecturas</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="">Multimedia</a>
+                        <a class="page-scroll" href="#multimedia">Multimedia</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="">Actividades</a>
+                        <a class="page-scroll" href="#actividades">Actividades</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="">Autores</a>
+                        <a class="page-scroll" href="#autores">Autores</a>
                     </li>
                     
                 </ul>
@@ -240,6 +240,148 @@
             </div>
         </div>
     </section>
+
+    <!-- Sección Multimedia -->
+    <section id="multimedia" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Multimedia</h2>
+                    <h3 class="section-subheading text-muted">Videos relacionados</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item"></div>
+                        </div>
+                       <iframe width="560" height="315" src="https://www.youtube.com/embed/NTgH0FSkvjI" frameborder="0" allowfullscreen></iframe>
+                       <iframe width="560" height="315" src="https://www.youtube.com/embed/_5asbxeHlWs" frameborder="0" allowfullscreen></iframe>
+                <div class="portfolio-caption">
+                       
+            
+        </div>
+    </section>
+  <!-- Sección actividades -->
+       <section id="actividades">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Actividades</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                    <h4>1.      Programa Java que lea dos números enteros por teclado y los muestre por pantalla.</h4>
+
+                    <p align="left"> import java.util.*;
+                     public class Main {
+                        public static void main(String[] args){
+                            //declaración de variables
+                            int n1, n2;
+                            Scanner sc = new Scanner(System.in);
+                            //leer el primer número 
+                            System.out.println("Introduce un número entero: "); 
+                            n1 = sc.nextInt();      //lee un entero por teclado
+                            //leer el segundo número
+                            System.out.println("Introduce otro número entero: "); 
+                            n2 = sc.nextInt();      //lee un entero por teclado
+                            //mostrar resultado
+                            System.out.println("Ha introducido los números: " + n1 + " y " + n2);
+
+                        }
+                    }</p><br><br>
+                    <h4>2.      Programa Java que lea un nombre y muestre por pantalla:
+“Buenos dias nombre_introducido”</h4>
+                        <p align="left"> import java.util.*;
+                         public class Main {
+                            public static void main(String[] args) {
+                                Scanner sc = new Scanner(System.in);
+                                String cadena;
+                                System.out.println("Introduce un nombre: ");
+                                cadena = sc.nextLine();
+                                System.out.println("Buenos Días " + cadena);
+                            }
+                        }</p><br><br>
+                <h4>3.      Escribe un programa Java que lee un número entero por teclado y obtiene y muestra por pantalla el doble y el triple de ese número.</h4>
+                    <p align="left">import java.util.*;
+                    public class Main {
+                        public static void main(String[] args) {
+                            Scanner sc = new Scanner(System.in);
+                            int numero;
+                            System.out.println("Introduce un número entero:");
+                            numero = sc.nextInt();
+                            System.out.println("Número introducido: " + numero);
+                            System.out.println("Doble de " + numero + " -> "+ 2*numero);
+                            System.out.println("Triple de " + numero + " -> "+ 3*numero);
+                            
+                        }
+                    }</p>
+
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- Seccion autores -->
+    <section id="autores" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Our Amazing Team</h2>
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Kay Garland</h4>
+                        <p class="text-muted">Lead Designer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Larry Parker</h4>
+                        <p class="text-muted">Lead Marketer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
+                        <h4>Diana Pertersen</h4>
+                        <p class="text-muted">Lead Developer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- logos -->
     <aside class="clients">
